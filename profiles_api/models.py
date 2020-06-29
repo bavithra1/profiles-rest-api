@@ -49,8 +49,8 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """Return string representatiojn of our user"""
         return self.email
 
-    class Meta:
-        pass
+    #class Meta:
+        #pass
         #verbose_name = "UserProfile"
         #verbose_name_plural = "UserProfiles"
 
